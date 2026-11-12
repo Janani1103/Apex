@@ -1,0 +1,39 @@
+<svg width="220" height="52" viewBox="0 0 220 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Aerodynamic Swept Fin / Winglet Symbol -->
+  <g id="aero-winglet">
+    <!-- Outer Wing Fin -->
+    <path d="M 12 44 L 26 8 L 38 8 L 22 44 Z" fill="url(#wingGradient1)" />
+    <!-- Inner Swept Stator -->
+    <path d="M 24 44 L 38 16 L 46 16 L 31 44 Z" fill="url(#wingGradient2)" />
+    <!-- Dynamic Contrail Arc -->
+    <path d="M 6 36 C 14 36 28 32 46 22" stroke="url(#contrailGradient)" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Wingtip Navigation Beacon -->
+    <circle cx="26" cy="8" r="2" fill="#38bdf8" />
+  </g>
+
+  <!-- Typography: GLOVANTA Luxury Corporate -->
+  <g id="brand-typography">
+    <text x="56" y="28" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22" font-weight="800" letter-spacing="3" fill="#0f172a">
+      GLOVANTA
+    </text>
+    <text x="57" y="42" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="7.5" font-weight="700" letter-spacing="2.2" fill="#0284c7">
+      INTERNATIONAL MANPOWER
+    </text>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="wingGradient1" x1="12" y1="44" x2="38" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="wingGradient2" x1="24" y1="44" x2="46" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#7dd3fc" />
+    </linearGradient>
+    <linearGradient id="contrailGradient" x1="6" y1="36" x2="46" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bae6fd" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+</svg>
