@@ -37,8 +37,7 @@ export function FloatingWhatsApp() {
               </div>
               <div>
                 <h4 className="font-bold text-sm leading-tight">Apex World WhatsApp</h4>
-                <p className="text-[11px] text-emerald-100 flex items-center gap-1 mt-0.5">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-300 animate-pulse" />
+                <p className="text-[11px] text-emerald-100 flex items-center mt-0.5">
                   Official Recruitment Desk
                 </p>
               </div>

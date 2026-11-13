@@ -144,7 +144,6 @@ function JobsContent() {
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 w-full">
           <span className="text-xs font-bold text-sky-900 tracking-wider uppercase bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full border border-sky-200/80 shadow-md inline-flex items-center gap-2 mb-4">
-            <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse" />
             Sri Lankan Job Seeker Gateway
           </span>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold font-heading text-slate-900 tracking-tight mb-4 drop-shadow-xs">

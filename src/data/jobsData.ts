@@ -470,7 +470,7 @@ export const JOB_CATEGORIES = [
   {
     name: "Housekeeping Staff",
     slug: "housekeeping",
-    icon: "Sparkles",
+    icon: "ShieldCheck",
     description: "Room attendants, hospital sanitization crews, and executive supervisors.",
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
     vacancies: 28,

@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Plane, ArrowUpRight, Compass, ShieldCheck, Clock, Banknote, Sparkles, Globe2, ChevronRight } from "lucide-react";
+import { Plane, ArrowUpRight, Compass, ShieldCheck, Clock, Banknote, Globe2, ChevronRight } from "lucide-react";
 import { worldLandmassPath } from "./worldLandPaths";
 
 interface RouteNode {
@@ -794,7 +794,7 @@ export function FlightRouteMap() {
 
             {/* Benefits Chip */}
             <div className="flex items-center gap-1.5 text-[11px] text-slate-700 mb-3.5 bg-sky-50/70 px-2.5 py-1.5 rounded-lg border border-sky-200/80">
-              <Sparkles className="w-3.5 h-3.5 text-sky-600 shrink-0" />
+              <ShieldCheck className="w-3.5 h-3.5 text-sky-600 shrink-0" />
               <span>Full airfare, verified visa sponsorship & health insurance included.</span>
             </div>
 
@@ -823,7 +823,6 @@ export function FlightRouteMap() {
       <div className="mt-3.5 bg-slate-50/90 rounded-2xl p-3 border border-slate-200/90 shadow-2xs">
         <div className="flex items-center justify-between mb-2.5 px-1">
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
             <span className="text-[11px] font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
               <Plane className="w-3.5 h-3.5 text-sky-600" />
               Live Departure Flight Deck ({filteredDestinations.length} Corridors)
@@ -898,7 +897,6 @@ export function FlightRouteMap() {
       {/* CLEAN FOOTER STRIP */}
       <div className="mt-4 pt-3.5 border-t border-slate-200/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
         <div className="flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
           <span className="font-medium text-slate-700">100% SLBFE Government Verified Corridors</span>
           <span className="text-slate-300 hidden md:inline">|</span>
           <span className="hidden md:inline text-slate-500">Hover or click any flight arc or country pin to inspect live visa & salary packages</span>

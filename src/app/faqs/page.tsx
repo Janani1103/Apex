@@ -14,7 +14,6 @@ import {
   CheckCircle2,
   HelpCircle,
   ArrowRight,
-  Sparkles,
   PhoneCall,
   Clock,
   FileCheck2,
@@ -160,7 +159,6 @@ export default function FAQsPage() {
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               {/* Badge */}
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md border border-sky-200 text-sky-800 text-xs font-bold tracking-wide uppercase shadow-xs">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 <span>Apex World Knowledge Base &amp; FAQ</span>
               </div>
 

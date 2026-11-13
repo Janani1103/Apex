@@ -108,7 +108,6 @@ export default function ContactPage() {
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-flex items-center gap-2 text-xs font-bold text-sky-700 tracking-wider uppercase bg-white/80 backdrop-blur-sm px-4 py-1.5 rounded-full border border-sky-200 shadow-sm mb-5">
-            <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse" />
             Get in Touch
           </span>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold font-heading text-slate-900 tracking-tight leading-tight mb-5">

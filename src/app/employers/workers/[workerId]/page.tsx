@@ -23,7 +23,6 @@ import {
   Cog,
   Wrench,
   Clock,
-  Sparkles,
 } from "lucide-react";
 import { WhatsAppIcon } from "@/components/ui/WhatsAppIcon";
 import { WORKERS_DATA } from "@/data/workersData";
@@ -162,11 +161,7 @@ export default function WorkerProfilePage({ params }: WorkerProfilePageProps) {
                     ID: {worker.workerId}
                   </span>
 
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200/90 shadow-2xs">
-                    <span className="relative flex h-2 w-2">
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
-                      <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
-                    </span>
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200/90 shadow-2xs">
                     <span>Verified Active</span>
                   </span>
 

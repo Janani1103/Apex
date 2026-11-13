@@ -154,7 +154,6 @@ export function EmployerRequestForm({
       {formData.workerId && (
         <div className="p-4 bg-sky-50 border border-sky-200 rounded-2xl flex items-center justify-between gap-3 text-xs">
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-sky-500 animate-ping" />
             <span className="text-slate-700">
               Inquiring about specific candidate:{" "}
               <strong className="text-sky-800 font-mono text-sm">{formData.workerId}</strong>

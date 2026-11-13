@@ -14,7 +14,6 @@ import {
   ChevronLeft,
   ChevronRight,
   Clock,
-  Sparkles,
   Navigation,
   Check,
 } from "lucide-react";

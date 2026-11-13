@@ -251,7 +251,7 @@ export default function AdminApplicationsPage() {
               <span className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-sky-100 text-sky-800 uppercase tracking-wider">
                 Authorized Session
               </span>
-              <span className="text-xs text-slate-400">• Persistent Database Storage</span>
+              <span className="text-xs text-slate-400">Persistent Database Storage</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold font-heading text-slate-900 tracking-tight">
               Candidate Applications Portal

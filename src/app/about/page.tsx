@@ -47,7 +47,6 @@ export default function AboutPage() {
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <span className="text-xs font-bold text-sky-300 tracking-wider uppercase bg-white/10 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/20 shadow-sm inline-flex items-center gap-2 mb-5">
-            <span className="w-2 h-2 rounded-full bg-sky-400 animate-pulse" />
             About Apex World
           </span>
 

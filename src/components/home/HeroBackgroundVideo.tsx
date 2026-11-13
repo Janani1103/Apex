@@ -74,8 +74,7 @@ export function HeroBackgroundVideo() {
         suppressHydrationWarning
         className="absolute bottom-6 right-6 z-30 flex items-center gap-2 bg-slate-950/80 backdrop-blur-md border border-white/20 px-3.5 py-1.5 rounded-full shadow-2xl"
       >
-        <div className="flex items-center gap-1.5 text-[11px] font-semibold text-slate-300 pr-1.5 border-r border-white/15">
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+        <div className="flex items-center text-[11px] font-semibold text-slate-300 pr-1.5 border-r border-white/15">
           <span className="hidden sm:inline">Apex World Film</span>
         </div>
 

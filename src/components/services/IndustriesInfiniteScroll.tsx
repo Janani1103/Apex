@@ -13,7 +13,6 @@ import {
   Wrench,
   Boxes,
   ArrowRight,
-  Sparkles,
   MapPin,
   Pause,
   Play,
@@ -143,8 +142,7 @@ export function IndustriesInfiniteScroll() {
       {/* SECTION HEADER */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6">
         <div>
-          <span className="text-xs font-bold text-sky-600 tracking-wider uppercase bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100 shadow-xs inline-flex items-center gap-1.5 mb-3">
-            <Sparkles className="w-3.5 h-3.5 text-sky-500 animate-pulse" />
+          <span className="text-xs font-bold text-sky-600 tracking-wider uppercase bg-sky-50 px-3.5 py-1.5 rounded-full border border-sky-100 shadow-xs inline-flex items-center mb-3">
             Sectors Covered
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-slate-900 tracking-tight">

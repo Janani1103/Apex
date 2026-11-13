@@ -10,7 +10,6 @@ import {
   FileCheck2,
   Headphones,
   CheckCircle2,
-  Sparkles,
   Ticket,
   QrCode,
   Lock,

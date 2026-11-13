@@ -7,7 +7,6 @@ import {
   Quote,
   CheckCircle2,
   Building2,
-  Sparkles,
   Award,
   ShieldCheck,
   TrendingUp,
@@ -222,8 +221,7 @@ export function TestimonialsMasonry() {
         
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-14 lg:mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white text-sky-700 border border-sky-200 text-xs font-bold tracking-wide uppercase shadow-xs mb-3.5">
-            <Sparkles className="w-3.5 h-3.5 text-sky-600" />
+          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-white text-sky-700 border border-sky-200 text-xs font-bold tracking-wide uppercase shadow-xs mb-3.5">
             <span>Real Overseas Voices</span>
           </div>
 

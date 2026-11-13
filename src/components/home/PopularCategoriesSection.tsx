@@ -8,7 +8,7 @@ import {
   Zap,
   Flame,
   Utensils,
-  Sparkles,
+  ShieldCheck,
   HeartPulse,
   Factory,
   Wrench,
@@ -93,7 +93,7 @@ const CATEGORIES: CategoryItem[] = [
     name: "Housekeeping & Facility Crews",
     slug: "housekeeping",
     sector: "hospitality",
-    iconName: "Sparkles",
+    iconName: "ShieldCheck",
     description: "Room attendants, hospital sanitization crews, and executive supervisors.",
     image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=800&auto=format&fit=crop",
     vacancies: 28,
@@ -145,8 +145,8 @@ function getCategoryIcon(iconName: string) {
       return <HeartPulse className="w-5 h-5" />;
     case "Utensils":
       return <Utensils className="w-5 h-5" />;
-    case "Sparkles":
-      return <Sparkles className="w-5 h-5" />;
+    case "ShieldCheck":
+      return <ShieldCheck className="w-5 h-5" />;
     case "Factory":
       return <Factory className="w-5 h-5" />;
     case "Wrench":
@@ -278,8 +278,7 @@ export function PopularCategoriesSection() {
                 </div>
 
                 {/* Vacancies Floating Pill at bottom of image */}
-                <div className="absolute bottom-3 left-3.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/95 backdrop-blur-md shadow-md text-sky-800 text-xs font-extrabold border border-sky-100">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                <div className="absolute bottom-3 left-3.5 inline-flex items-center px-3 py-1 rounded-full bg-white/95 backdrop-blur-md shadow-md text-sky-800 text-xs font-extrabold border border-sky-100">
                   <span>{cat.vacancies} Open Vacancies</span>
                 </div>
               </div>

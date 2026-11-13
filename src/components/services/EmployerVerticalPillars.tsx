@@ -11,7 +11,6 @@ import {
   ArrowRight,
   ShieldCheck,
   Building2,
-  Sparkles,
 } from "lucide-react";
 
 interface PillarData {
@@ -116,8 +115,7 @@ export function EmployerVerticalPillars() {
       {/* Top Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 lg:mb-16 gap-6">
         <div>
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/10 text-sky-300 border border-sky-400/25 text-xs font-mono font-bold tracking-wider uppercase mb-3.5">
-            <Sparkles className="w-3.5 h-3.5 text-sky-400" />
+          <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-sky-500/10 text-sky-300 border border-sky-400/25 text-xs font-mono font-bold tracking-wider uppercase mb-3.5">
             <span>Institutional B2B Framework</span>
           </div>
 

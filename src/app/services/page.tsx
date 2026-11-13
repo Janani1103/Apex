@@ -34,7 +34,6 @@ export default function ServicesPage() {
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <span className="text-xs font-bold text-sky-900 tracking-wider uppercase bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full border border-sky-200/80 shadow-md inline-flex items-center gap-2 mb-5">
-            <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse" />
             Our Comprehensive Solutions
           </span>
 

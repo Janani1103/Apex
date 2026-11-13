@@ -53,7 +53,6 @@ export default function DestinationsIndexPage() {
           {/* Quick Metrics Strip */}
           <div className="inline-flex flex-wrap items-center justify-center gap-3 sm:gap-6 bg-slate-900/60 backdrop-blur-md border border-white/10 px-5 py-2.5 rounded-2xl text-xs text-slate-300">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="font-semibold text-white">8+ Active Nations</span>
             </div>
             <span className="hidden sm:inline text-slate-600">•</span>
@@ -129,11 +128,7 @@ export default function DestinationsIndexPage() {
                     <span className="font-heading font-black tracking-wide text-slate-800">{dest.name}</span>
                   </div>
 
-                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-sky-500 text-white backdrop-blur-md border border-sky-400/60 shadow-lg shadow-sky-500/30">
-                    <span className="relative flex h-2 w-2">
-                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" />
-                      <span className="relative inline-flex rounded-full h-2 w-2 bg-white" />
-                    </span>
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-sky-500 text-white backdrop-blur-md border border-sky-400/60 shadow-lg shadow-sky-500/30">
                     <span>{dest.availableJobsCount} Vacancies</span>
                   </span>
                 </div>

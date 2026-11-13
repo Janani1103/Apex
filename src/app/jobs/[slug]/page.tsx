@@ -277,8 +277,7 @@ export default function JobDetailPage({ params }: JobDetailPageProps) {
                 </div>
 
                 {/* Confirmed Vacancies Live Beacon */}
-                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 shadow-2xs">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                <span className="inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-200 shadow-2xs">
                   <span>{job.vacanciesCount} Confirmed Openings</span>
                 </span>
 
@@ -616,8 +615,7 @@ export default function JobDetailPage({ params }: JobDetailPageProps) {
                     Guaranteed in official employment contract as per destination country labor regulations:
                   </p>
                 </div>
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 shadow-2xs">
                   {job.benefits.length} Guaranteed Provisions
                 </span>
               </div>

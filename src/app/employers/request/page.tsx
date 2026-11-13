@@ -116,7 +116,6 @@ export default function EmployerRequestPage({ searchParams }: EmployerRequestPag
                     Direct access to our international business directorate.
                   </p>
                 </div>
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-xs">

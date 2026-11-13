@@ -51,7 +51,6 @@ export default function HomePage() {
         <div className="relative z-20 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-2 sm:pt-6 mb-8">
           {/* Top Pill Announcement */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/20 text-sky-300 text-xs font-semibold shadow-lg mb-5 animate-fadeIn">
-            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
             <span>Your next international destination is just a flight away</span>
             <span className="hidden sm:inline font-mono text-slate-400 font-normal">| SLBFE Lic: 2450</span>
           </div>
@@ -105,7 +104,6 @@ export default function HomePage() {
           </div>
           <div className="flex items-center gap-2 self-start md:self-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-xs font-bold shadow-2xs">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               100% Legal & Govt. Accredited
             </span>
           </div>
@@ -119,8 +117,7 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-white transition-all shadow-xs">
                 <Users className="w-6 h-6" />
               </div>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold">
                 Active Pool
               </span>
             </div>
@@ -141,8 +138,7 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 border border-sky-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-sky-500 group-hover:text-white transition-all shadow-xs">
                 <Globe2 className="w-6 h-6" />
               </div>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-sky-50 text-sky-700 text-[10px] font-bold">
-                <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-sky-50 text-sky-700 text-[10px] font-bold">
                 Daily Flights
               </span>
             </div>
@@ -163,8 +159,7 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 border border-indigo-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-indigo-500 group-hover:text-white transition-all shadow-xs">
                 <CheckCircle2 className="w-6 h-6" />
               </div>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-[10px] font-bold">
-                <span className="w-1.5 h-1.5 rounded-full bg-indigo-500" />
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 text-[10px] font-bold">
                 SLBFE Verified
               </span>
             </div>
@@ -185,8 +180,7 @@ export default function HomePage() {
               <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 border border-amber-100 flex items-center justify-center group-hover:scale-110 group-hover:bg-amber-500 group-hover:text-white transition-all shadow-xs">
                 <Building2 className="w-6 h-6" />
               </div>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 text-[10px] font-bold">
-                <span className="w-1.5 h-1.5 rounded-full bg-amber-500" />
+              <span className="inline-flex items-center px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 text-[10px] font-bold">
                 Zero Sub-Agents
               </span>
             </div>
@@ -229,7 +223,6 @@ export default function HomePage() {
                   <Briefcase className="w-7 h-7" />
                 </div>
                 <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-50 text-sky-700 text-xs font-bold border border-sky-100 shadow-2xs">
-                  <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse" />
                   <span>450+ Active Vacancies</span>
                 </div>
               </div>
@@ -321,7 +314,6 @@ export default function HomePage() {
                   <Building2 className="w-7 h-7" />
                 </div>
                 <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200/80 shadow-2xs">
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                   <span>B2B Priority Requisition</span>
                 </div>
               </div>

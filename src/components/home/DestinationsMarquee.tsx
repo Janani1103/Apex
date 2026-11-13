@@ -77,8 +77,7 @@ export function DestinationsMarquee({ className }: { className?: string } = {}) 
                       </span>
                       <ArrowUpRight className="w-3 h-3 text-slate-400 group-hover/item:text-sky-400 transition-transform group-hover/item:translate-x-0.5 group-hover/item:-translate-y-0.5" />
                     </div>
-                    <span className="text-[10px] text-slate-300 flex items-center gap-1.5 font-medium mt-0.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    <span className="text-[10px] text-slate-300 flex items-center font-medium mt-0.5">
                       {item.availableJobsCount ? `${item.availableJobsCount} Vacancies` : "Accredited"}
                     </span>
                   </div>

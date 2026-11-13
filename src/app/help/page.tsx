@@ -16,7 +16,6 @@ import {
   Fingerprint,
   FileSignature,
   MapPin,
-  Sparkles,
 } from "lucide-react";
 import { Accordion } from "@/components/ui/Accordion";
 import { FAQS_DATA } from "@/data/faqsData";
@@ -132,7 +131,6 @@ export default function HelpCenterPage() {
           {/* Quick Metrics Strip */}
           <div className="inline-flex flex-wrap items-center justify-center gap-3 sm:gap-6 bg-slate-900/70 backdrop-blur-md border border-white/15 px-5 py-2.5 rounded-2xl text-xs text-slate-300 shadow-xl">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="font-semibold text-white">6-Step Transparent Process</span>
             </div>
             <span className="hidden sm:inline text-slate-600">•</span>
@@ -283,8 +281,7 @@ export default function HelpCenterPage() {
                   <p className="text-slate-500 text-xs sm:text-sm leading-relaxed font-normal mb-3">
                     Fill in our guided 6-step online form, upload your credentials, and instantly receive your official Apex World Application Reference ID.
                   </p>
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <div className="inline-flex items-center px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200">
                     <span>Instant Reference ID Issued</span>
                   </div>
                 </div>
@@ -341,7 +338,6 @@ export default function HelpCenterPage() {
                     Our Colombo recruitment officers contact shortlisted applicants via WhatsApp for trade tests, GAMCA medical clearance, and SLBFE registered flight scheduling.
                   </p>
                   <div className="flex items-center gap-2 text-xs font-bold text-emerald-800">
-                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
                     <span>SLBFE Insurance &amp; Flight Ticket Handover</span>
                   </div>
                 </div>

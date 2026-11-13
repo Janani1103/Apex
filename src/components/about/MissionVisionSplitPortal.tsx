@@ -9,7 +9,6 @@ import {
   Globe2,
   ShieldCheck,
   Award,
-  Sparkles,
   ArrowRight,
   TrendingUp,
   Building2,
@@ -22,8 +21,7 @@ export function MissionVisionSplitPortal() {
     <div className="w-full">
       {/* Top Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-12 sm:mb-14">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white text-sky-700 border border-sky-200 text-xs font-bold tracking-wide uppercase shadow-xs mb-3.5">
-          <Sparkles className="w-3.5 h-3.5 text-sky-600" />
+        <div className="inline-flex items-center px-3.5 py-1.5 rounded-full bg-white text-sky-700 border border-sky-200 text-xs font-bold tracking-wide uppercase shadow-xs mb-3.5">
           <span>Strategic Foundation</span>
         </div>
 
@@ -63,8 +61,7 @@ export function MissionVisionSplitPortal() {
             <div>
               {/* Telemetry Pill Badge */}
               <div className="flex items-center justify-between gap-3 mb-6 relative z-10">
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-mono font-bold tracking-wider uppercase bg-sky-100 text-sky-800 border border-sky-200">
-                  <span className="w-1.5 h-1.5 rounded-full bg-sky-600 animate-pulse" />
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-mono font-bold tracking-wider uppercase bg-sky-100 text-sky-800 border border-sky-200">
                   OUR OPERATIONAL MISSION
                 </span>
 
@@ -145,8 +142,7 @@ export function MissionVisionSplitPortal() {
 
             {/* Bottom Status Ribbon */}
             <div className="pt-6 mt-6 border-t border-slate-200/70 flex items-center justify-between text-xs font-mono text-slate-500 relative z-10">
-              <span className="flex items-center gap-1.5 font-bold text-sky-700">
-                <span className="w-2 h-2 rounded-full bg-emerald-500" />
+              <span className="flex items-center font-bold text-sky-700">
                 Active Deployment Protocols
               </span>
               <span className="text-[11px]">SLBFE LIC // 2450</span>
@@ -178,8 +174,7 @@ export function MissionVisionSplitPortal() {
             <div>
               {/* Telemetry Pill Badge */}
               <div className="flex items-center justify-between gap-3 mb-6 relative z-10">
-                <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-mono font-bold tracking-wider uppercase bg-sky-500/20 text-sky-300 border border-sky-400/30">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping" />
+                <span className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-mono font-bold tracking-wider uppercase bg-sky-500/20 text-sky-300 border border-sky-400/30">
                   OUR STRATEGIC DESTINATION
                 </span>
 
@@ -260,8 +255,7 @@ export function MissionVisionSplitPortal() {
 
             {/* Bottom Status Ribbon */}
             <div className="pt-6 mt-6 border-t border-slate-800 flex items-center justify-between text-xs font-mono text-slate-400 relative z-10">
-              <span className="flex items-center gap-1.5 font-bold text-sky-300">
-                <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+              <span className="flex items-center font-bold text-sky-300">
                 Target: 10,000+ Placements
               </span>
               <span className="text-[11px]">GLOBAL ACCORD</span>

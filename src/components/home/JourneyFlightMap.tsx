@@ -11,7 +11,6 @@ import {
   Plane,
   ArrowRight,
   Clock,
-  Sparkles,
   RotateCw,
 } from "lucide-react";
 
@@ -311,8 +310,7 @@ export function JourneyFlightMap() {
               {/* Luminous Center Ping Ring */}
               <div className="absolute inset-2 rounded-full border border-dashed border-sky-300/60 animate-spin [animation-duration:35s]" />
 
-              <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200 text-[10px] sm:text-xs font-bold uppercase tracking-wider mb-1 shadow-2xs">
-                <Sparkles className="w-3 h-3 text-sky-600" />
+              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-sky-50 text-sky-700 border border-sky-200 text-[10px] sm:text-xs font-bold uppercase tracking-wider mb-1 shadow-2xs">
                 Apex World Hub
               </span>
 
@@ -325,8 +323,7 @@ export function JourneyFlightMap() {
               </p>
 
               {/* Active Step Indicator Pill */}
-              <div className="mt-2.5 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900 text-sky-300 font-mono text-[10px] sm:text-xs font-bold shadow-xs">
-                <span className="w-1.5 h-1.5 rounded-full bg-sky-400 animate-pulse" />
+              <div className="mt-2.5 inline-flex items-center px-3 py-1 rounded-full bg-slate-900 text-sky-300 font-mono text-[10px] sm:text-xs font-bold shadow-xs">
                 <span>Stage {currentStation.stepNum} of 06</span>
               </div>
             </div>
@@ -446,7 +443,6 @@ export function JourneyFlightMap() {
           {/* SLEEK MINIMAL GUIDANCE STRIP (Replaces the big card) */}
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500 max-w-3xl mx-auto px-4 py-3 bg-white/90 rounded-2xl border border-slate-200/90 shadow-xs backdrop-blur-md">
             <div className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               <span className="font-semibold text-slate-700">100% SLBFE Government Verified Process</span>
               <span className="text-slate-300 hidden sm:inline">|</span>
               <span className="hidden sm:inline text-slate-500">Hover or click any stage around the circle</span>
