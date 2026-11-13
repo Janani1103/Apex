@@ -64,10 +64,6 @@ export function MissionVisionSplitPortal() {
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-mono font-bold tracking-wider uppercase bg-sky-100 text-sky-800 border border-sky-200">
                   OUR OPERATIONAL MISSION
                 </span>
-
-                <span className="text-[11px] font-mono font-semibold text-slate-400">
-                  ORIGIN // CMB
-                </span>
               </div>
 
               {/* Icon & Title Header */}
@@ -145,7 +141,7 @@ export function MissionVisionSplitPortal() {
               <span className="flex items-center font-bold text-sky-700">
                 Active Deployment Protocols
               </span>
-              <span className="text-[11px]">SLBFE LIC // 2450</span>
+              <span className="text-[11px] font-semibold">SLBFE Lic: 2450</span>
             </div>
           </div>
 
@@ -176,10 +172,6 @@ export function MissionVisionSplitPortal() {
               <div className="flex items-center justify-between gap-3 mb-6 relative z-10">
                 <span className="inline-flex items-center px-3 py-1 rounded-full text-[11px] font-mono font-bold tracking-wider uppercase bg-sky-500/20 text-sky-300 border border-sky-400/30">
                   OUR STRATEGIC DESTINATION
-                </span>
-
-                <span className="text-[11px] font-mono font-semibold text-slate-400">
-                  HORIZON // 2030
                 </span>
               </div>
 

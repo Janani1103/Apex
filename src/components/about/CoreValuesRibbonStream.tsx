@@ -36,7 +36,7 @@ const RIBBON_VALUES: RibbonValue[] = [
     subtitle: "Building enduring bilateral partnerships",
     description:
       "We foster dependable, long-term relationships with both aspiring workers and sovereign corporate clients through verified job openings, transparent legal backing, and certified fulfillment.",
-    code: "SLBFE ACCORD // 01",
+    code: "SLBFE Accord",
     gradient: "from-sky-500 via-sky-600 to-blue-700",
     foldDark: "bg-blue-900",
     glowColor: "rgba(14,165,233,0.35)",
@@ -52,7 +52,7 @@ const RIBBON_VALUES: RibbonValue[] = [
     subtitle: "Uncompromising truth in every communication",
     description:
       "Every job specification, wage rate, overtime formula, and accommodation standard is documented with total honesty. What is promised in Colombo is delivered in full at destination.",
-    code: "ETHICAL CODE // 02",
+    code: "Ethical Code",
     gradient: "from-emerald-500 via-teal-600 to-emerald-700",
     foldDark: "bg-emerald-950",
     glowColor: "rgba(16,185,129,0.35)",
@@ -68,7 +68,7 @@ const RIBBON_VALUES: RibbonValue[] = [
     subtitle: "Delivering international recruitment standards",
     description:
       "Our operations adhere strictly to international talent protocols, certified trade tests, GAMCA medical clearances, and consular attestations that premier foreign employers demand.",
-    code: "CONSULAR PROTOCOL // 03",
+    code: "Consular Protocol",
     gradient: "from-indigo-600 via-violet-600 to-purple-700",
     foldDark: "bg-indigo-950",
     glowColor: "rgba(99,102,241,0.35)",
@@ -84,7 +84,7 @@ const RIBBON_VALUES: RibbonValue[] = [
     subtitle: "Providing complete clarity from day one",
     description:
       "Clear itemized documentation, contracts in your native tongue, and zero hidden deductions. Candidates and employers always know exactly where their application stands at every stage.",
-    code: "ZERO HIDDEN CHARGES // 04",
+    code: "Zero Hidden Charges",
     gradient: "from-amber-500 via-orange-500 to-amber-700",
     foldDark: "bg-amber-950",
     glowColor: "rgba(245,158,11,0.35)",
@@ -100,7 +100,7 @@ const RIBBON_VALUES: RibbonValue[] = [
     subtitle: "Supporting you throughout the overseas journey",
     description:
       "Our responsibility never ends at the boarding gate. We maintain dedicated 24/7 overseas welfare desks, routine employer welfare checks, and family assistance throughout the contract period.",
-    code: "CONTINUOUS WELFARE // 05",
+    code: "Continuous Welfare",
     gradient: "from-cyan-500 via-sky-600 to-blue-800",
     foldDark: "bg-cyan-950",
     glowColor: "rgba(6,182,212,0.35)",

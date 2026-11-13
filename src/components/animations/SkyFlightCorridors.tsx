@@ -254,9 +254,6 @@ export function SkyFlightCorridors() {
           <circle r="3" fill="#0284c7" />
           <circle r="9" stroke="#38bdf8" strokeWidth="1" strokeDasharray="3, 3" className="animate-spin [animation-duration:12s]" />
           <circle r="16" stroke="#38bdf8" strokeWidth="0.7" opacity="0.4" className="animate-ping" style={{ animationDuration: "3s" }} />
-          <text x="14" y="4" fill="#0369a1" fontSize="9" fontFamily="monospace" fontWeight="bold" letterSpacing="1">
-            WPT // DXB-CORRIDOR
-          </text>
         </g>
 
         {/* Waypoint East (Tokyo Entry) */}
@@ -264,9 +261,6 @@ export function SkyFlightCorridors() {
           <circle r="3" fill="#0284c7" />
           <circle r="9" stroke="#38bdf8" strokeWidth="1" strokeDasharray="3, 3" className="animate-spin [animation-duration:12s]" />
           <circle r="16" stroke="#38bdf8" strokeWidth="0.7" opacity="0.4" className="animate-ping" style={{ animationDuration: "3.5s" }} />
-          <text x="-120" y="4" fill="#0369a1" fontSize="9" fontFamily="monospace" fontWeight="bold" letterSpacing="1">
-            WPT // TYO-SECTOR
-          </text>
         </g>
       </svg>
     </div>

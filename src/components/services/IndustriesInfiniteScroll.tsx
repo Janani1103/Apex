@@ -35,7 +35,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "construction",
     name: "Construction & Civil",
-    tag: "SECTOR // 01",
+    tag: "Sector 01",
     subtitle: "Heavy Civil & High-Rise Infrastructure",
     icon: HardHat,
     image: "/images/industries/construction.jpg",
@@ -47,7 +47,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "engineering",
     name: "Engineering & MEP",
-    tag: "SECTOR // 02",
+    tag: "Sector 02",
     subtitle: "Industrial Electrical & HVAC Automation",
     icon: Cpu,
     image: "/images/industries/engineering.jpg",
@@ -59,7 +59,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "manufacturing",
     name: "Precision Manufacturing",
-    tag: "SECTOR // 03",
+    tag: "Sector 03",
     subtitle: "Automated Assembly & CNC Production",
     icon: Factory,
     image: "/images/industries/manufacturing.jpg",
@@ -71,7 +71,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "hospitality",
     name: "Hospitality & Tourism",
-    tag: "SECTOR // 04",
+    tag: "Sector 04",
     subtitle: "5-Star Resorts & Airline Catering",
     icon: Utensils,
     image: "/images/industries/hospitality.jpg",
@@ -83,7 +83,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "healthcare",
     name: "Healthcare Support",
-    tag: "SECTOR // 05",
+    tag: "Sector 05",
     subtitle: "Caregiving & Medical Assisting",
     icon: HeartPulse,
     image: "/images/industries/healthcare.jpg",
@@ -95,7 +95,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "transportation",
     name: "Transportation & Fleet",
-    tag: "SECTOR // 06",
+    tag: "Sector 06",
     subtitle: "Heavy Logistics & Commercial Driving",
     icon: Truck,
     image: "/images/industries/transportation.jpg",
@@ -107,7 +107,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "maintenance",
     name: "Facility Management",
-    tag: "SECTOR // 07",
+    tag: "Sector 07",
     subtitle: "Commercial Property & Operations",
     icon: Wrench,
     image: "/images/industries/maintenance.jpg",
@@ -119,7 +119,7 @@ const INDUSTRIES_DATA: IndustryItem[] = [
   {
     id: "general-labour",
     name: "Logistics & Warehousing",
-    tag: "SECTOR // 08",
+    tag: "Sector 08",
     subtitle: "Distribution Centers & Site Cargo",
     icon: Boxes,
     image: "/images/industries/general-labour.jpg",

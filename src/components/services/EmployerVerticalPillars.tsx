@@ -32,7 +32,7 @@ const PILLARS: PillarData[] = [
   {
     id: "pillar-01",
     pillarNumber: "01",
-    code: "PILLAR // SOURCING",
+    code: "Sourcing",
     metricBadge: "5,000+ Active Pool",
     title: "Talent Sourcing & Database",
     subtitle: "Skilled Human Capital Procurement",
@@ -51,7 +51,7 @@ const PILLARS: PillarData[] = [
   {
     id: "pillar-02",
     pillarNumber: "02",
-    code: "PILLAR // AUDIT",
+    code: "Skill Audit",
     metricBadge: "100% Practical Tests",
     title: "Trade Testing & Skill Audits",
     subtitle: "Vocational Verification Bays",
@@ -70,7 +70,7 @@ const PILLARS: PillarData[] = [
   {
     id: "pillar-03",
     pillarNumber: "03",
-    code: "PILLAR // LEGAL",
+    code: "Legal & Consular",
     metricBadge: "100% Embassy Attested",
     title: "Consular & Legal Clearances",
     subtitle: "Diplomatic Protocol Endorsements",
@@ -89,7 +89,7 @@ const PILLARS: PillarData[] = [
   {
     id: "pillar-04",
     pillarNumber: "04",
-    code: "PILLAR // DEPLOYMENT",
+    code: "Mobilization",
     metricBadge: "99.4% Mobilization",
     title: "Turnkey Flight Mobilization",
     subtitle: "Departure & In-Country Care",

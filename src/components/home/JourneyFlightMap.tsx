@@ -37,7 +37,7 @@ interface TransitStation {
 const TRANSIT_STATIONS: TransitStation[] = [
   {
     id: "stn-01",
-    stationCode: "STAGE 01 // DISCOVERY",
+    stationCode: "Stage 01",
     stepNum: "01",
     name: "Application Junction",
     shortTitle: "Application",
@@ -57,7 +57,7 @@ const TRANSIT_STATIONS: TransitStation[] = [
   },
   {
     id: "stn-02",
-    stationCode: "STAGE 02 // DOSSIER",
+    stationCode: "Stage 02",
     stepNum: "02",
     name: "Digital Dossier Interchange",
     shortTitle: "Digital Dossier",
@@ -77,7 +77,7 @@ const TRANSIT_STATIONS: TransitStation[] = [
   },
   {
     id: "stn-03",
-    stationCode: "STAGE 03 // VETTING",
+    stationCode: "Stage 03",
     stepNum: "03",
     name: "Technical Assessment Terminal",
     shortTitle: "Trade Vetting",
@@ -97,7 +97,7 @@ const TRANSIT_STATIONS: TransitStation[] = [
   },
   {
     id: "stn-04",
-    stationCode: "STAGE 04 // CONTRACT",
+    stationCode: "Stage 04",
     stepNum: "04",
     name: "Corporate Agreement Interchange",
     shortTitle: "Offer Contract",
@@ -117,7 +117,7 @@ const TRANSIT_STATIONS: TransitStation[] = [
   },
   {
     id: "stn-05",
-    stationCode: "STAGE 05 // CLEARANCE",
+    stationCode: "Stage 05",
     stepNum: "05",
     name: "Consular & Visa Hub",
     shortTitle: "Visa Clearance",
@@ -137,7 +137,7 @@ const TRANSIT_STATIONS: TransitStation[] = [
   },
   {
     id: "stn-06",
-    stationCode: "STAGE 06 // TAKEOFF",
+    stationCode: "Stage 06",
     stepNum: "06",
     name: "International Departure Port",
     shortTitle: "Flight Departure",

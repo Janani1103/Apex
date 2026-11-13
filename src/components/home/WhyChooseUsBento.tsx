@@ -50,7 +50,7 @@ const BOARDING_PASSES: BoardingPassCredential[] = [
       "Rigorous technical skill testing in authorized centers",
       "Authentic legal work permits with zero fraud guarantee",
     ],
-    securityClass: "CLASS A // LEGAL GUARANTEE",
+    securityClass: "Legal Guarantee",
   },
   {
     code: "DIRECT-MOU-02",
@@ -70,7 +70,7 @@ const BOARDING_PASSES: BoardingPassCredential[] = [
       "Embassy-authenticated job orders with fixed quotas",
       "Direct foreign delegation video & in-person interviews",
     ],
-    securityClass: "CLASS A // CORPORATE BILATERAL",
+    securityClass: "Corporate Bilateral",
   },
   {
     code: "CONTRACT-03",
@@ -90,7 +90,7 @@ const BOARDING_PASSES: BoardingPassCredential[] = [
       "Guaranteed employer-sponsored food & accommodation",
       "Itemized official receipts for all regulatory steps",
     ],
-    securityClass: "CLASS A // FINANCIAL TRANSPARENCY",
+    securityClass: "Financial Transparency",
   },
   {
     code: "VISA-DESK-04",
@@ -110,7 +110,7 @@ const BOARDING_PASSES: BoardingPassCredential[] = [
       "Biometric enrollment (QVC / VFS / Tasheel) assistance",
       "Ministry of Foreign Affairs & Embassy visa stamp attestation",
     ],
-    securityClass: "CLASS A // EMBASSY PROTOCOL",
+    securityClass: "Embassy Protocol",
   },
   {
     code: "FLIGHT-KIT-05",
@@ -130,7 +130,7 @@ const BOARDING_PASSES: BoardingPassCredential[] = [
       "Cultural adaptation & foreign workplace orientation",
       "Confirmed airline ticket handover + Airport escort staff",
     ],
-    securityClass: "CLASS A // AIRPORT ESCORT",
+    securityClass: "Airport Escort",
   },
   {
     code: "24-7-CARE-06",
@@ -150,7 +150,7 @@ const BOARDING_PASSES: BoardingPassCredential[] = [
       "Real-time SMS & online portal application tracking",
       "24/7 in-country welfare support desk for workers & families",
     ],
-    securityClass: "CLASS A // CONTINUOUS WELFARE",
+    securityClass: "Continuous Welfare",
   },
 ];
 
